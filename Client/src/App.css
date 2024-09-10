@@ -1,0 +1,86 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+ul{
+  list-style: none;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+li{
+  margin-bottom: 10px;
+  background-color: #84e8ff;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+button.edit{
+  padding: 1px 4px;
+  color: blue;
+  border: 1px solid blue;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: blue;
+    color: white;
+  }
+}
+button.delete{
+  padding: 1px 4px;
+  color: #ff4747;
+  border: 1px solid #ff4747;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: #ff4747;
+    color: white;
+  }
+}
+button.save{
+  padding: 1px 4px;
+  color: green;
+  border: 1px solid green;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 5px;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: green;
+    color: white;
+  }
+}
+button.add{
+  padding: 3px 7px;
+  color: #fff;
+  border: 1px solid #3498db;
+  background-color: #3498db;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: #fff;
+    color: #3498db;
+  }
+}
+.inputBox {
+  padding: 5px;
+  width: 100%;
+  border-radius: 0px;
+  outline: none;
+  border: 1px solid rgb(104, 104, 104);
+}
+.inputContainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
